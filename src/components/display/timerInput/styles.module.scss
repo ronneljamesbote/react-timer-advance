@@ -1,0 +1,28 @@
+.timerInput {
+  text-align: center;
+
+  label {
+    color: #999;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+  }
+
+  input {
+    border: 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+    height: 2rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+
+    &.selected {
+      outline-color: rgb(77, 144, 254);
+      outline-offset: -1.66667px;
+      outline-style: solid;
+      outline-width: 0.8333333px;
+    }
+  }
+}
